@@ -1,0 +1,151 @@
+/* Green Theme CSS Override */
+
+:root {
+    --primary: #2e8b57 !important; /* Sea green */
+    --primary-light: #3cb371 !important; /* Medium sea green */ 
+    --primary-dark: #1b5e3c !important; /* Dark green */
+    --primary-very-light: #e8f5e9 !important; /* Very light green */
+    --primary-transparent: rgba(46, 139, 87, 0.7) !important; /* Semi-transparent sea green */
+  }
+  
+  /* Background colors */
+  body, .navbar, .ftco-navbar-light, section.hero-wrap,
+  #about-section, #resume-section, #education-section,
+  #blog-section, .ftco-section, .ftco-footer {
+      background-color: var(--primary-very-light);
+  }
+  
+  /* Replace blue (#3e64ff) with sea green */
+  .text-primary, .heading-section h1.big, .heading-section .subheading, 
+  .ftco-navbar-light .navbar-nav > .nav-item > .nav-link span:before,
+  .ftco-navbar-light .navbar-nav > .nav-item .nav-link.active,
+  .navbar-brand:after, .slider-text .subheading,
+  .slider-text h2 span, .slider-text .breadcrumbs span a,
+  .contact-section .contact-info p a, .counter-wrap .text p span.number,
+  .ftco-counter .ftco-number, .comment-list li .comment-body .meta {
+      color: var(--primary) !important;
+      border-color: var(--primary) !important;
+      background-color: var(--primary) !important;
+  }
+  
+  /* Primary color elements */
+  .btn-primary, .progress-bar, .bg-primary, 
+  .ftco-animate .progress-bar,
+  .progress-bar.color-1, .progress-bar.color-2, 
+  .progress-bar.color-3, .progress-bar.color-4, 
+  .progress-bar.color-5, .progress-bar.color-6,
+  .project .overlay, .navbar-brand:after,
+  .ftco-navbar-light .navbar-nav > .nav-item.cta > a,
+  .ftco-navbar-light.scrolled .nav-item.cta > a,
+  .resume-wrap .icon, .contact-section .box .icon {
+      background: var(--primary) !important;
+      border-color: var(--primary) !important;
+  }
+  
+  /* Progress bar elements */
+  .progress-bar:after {
+      background: var(--primary) !important;
+  }
+  
+  /* Border colors for progress circles */
+  .progress-left .progress-bar.border-primary, 
+  .progress-right .progress-bar.border-primary {
+      border-color: var(--primary) !important;
+  }
+  
+  /* Text colors */
+  a, a:hover, .navbar-brand, .navbar-brand:hover,
+  .progress-wrap h3, h2, .ftco-navbar-light .navbar-nav > .nav-item .nav-link.active,
+  .categories li a:hover, .categories li a:focus, .sidelink li a:hover,
+  .blog-entry .text .heading a:hover, .blog-entry .text .heading a:focus,
+  .block-21 .text .heading a:hover, .block-21 .text .heading a:focus {
+      color: var(--primary) !important;
+  }
+  
+  /* Links and hover states */
+  a:hover, .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover span:before,
+  .navbar-toggler:hover, .navbar-toggler:focus {
+      color: var(--primary-light) !important;
+      border-color: var(--primary-light) !important;
+      text-decoration: none !important;
+  }
+  
+  /* Button hover states */
+  .btn-primary:hover {
+      background: var(--primary-light) !important;
+      border-color: var(--primary-light) !important;
+  }
+  
+  /* Progress value and circles */
+  .progress-value {
+      color: var(--primary) !important;
+  }
+  
+  /* Hero section adjustments */
+  .hero-wrap .overlay, .ftco-hireme .overlay {
+      background: var(--primary-transparent);
+  }
+  
+  /* Hire me section */
+  .ftco-hireme, .ftco-hireme .overlay {
+      background: var(--primary) !important;
+  }
+  
+  /* Navigation active state and span elements */
+  .ftco-navbar-light .navbar-nav > .nav-item > .nav-link span:before,
+  .ftco-navbar-light .navbar-nav > .nav-item .nav-link.active span:before {
+      background: var(--primary) !important;
+  }
+  
+  /* Icons */
+  .icon-globe, .icon-map-signs, .icon-phone2, .icon-paper-plane,
+  .flaticon-ideas, .icon-chat, .mouse-wheel {
+      color: var(--primary) !important;
+  }
+  
+  /* Heart icon in footer */
+  .icon-heart.color-danger {
+      color: var(--primary-light) !important;
+  }
+  
+  /* Buttons */
+  .btn-outline-secondary {
+      border-color: var(--primary) !important;
+      color: var(--primary) !important;
+  }
+  
+  .btn-outline-secondary:hover {
+      background-color: var(--primary) !important;
+      color: white !important;
+  }
+  
+  /* Loader */
+  #ftco-loader .path {
+      stroke: var(--primary) !important;
+  }
+  
+  /* Mouse icon background */
+  .mouse-icon:after {
+      background: var(--primary-very-light) !important;
+  }
+  
+  /* Project overlay and hover */
+  .project:hover .overlay, .project:focus .overlay {
+      background: var(--primary) !important;
+      opacity: 0.9 !important;
+  }
+  
+  /* Services hover effect */
+  .services-1:hover {
+      background: var(--primary) !important;
+  }
+  
+  /* Aside stretch */
+  .aside-stretch, .aside-stretch:after {
+      background: var(--primary-light) !important;
+  }
+  
+  /* Footer background */
+  .ftco-footer {
+      background: var(--primary-dark) !important;
+  }
